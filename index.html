@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit converter</title>
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <input type="number" id="input-num" />
+    <select id="unit-dropdown">
+      <option value="lbs2kgs">Convert from lbs to kgs</option>
+      <option value="kgs2lbs">Convert from kgs to lbs</option>
+      <option value="inches2cms">Convert from inches to cms</option>
+      <option value="cms2inches">Convert from cms to inches</option>
+      <option value="miles2kms">Convert from miles to kms</option>
+      <option value="kms2miles">Convert from kms to miles</option>
+    </select>
+    <button onclick="convertUnit()">Convert</button>
+    <p id="result-txt"></p>
+  </body>
+</html>
